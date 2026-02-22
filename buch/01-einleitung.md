@@ -19,7 +19,7 @@ Dieses Buch ist kein theoretisches Fachbuch. Du wirst keine 50 Seiten über Tran
 
 ## Wer ich bin (und warum du mir zuhören solltest)
 
-Ich bin Belkis Aslani. Ich baue KI-Systeme für Unternehmen und trainiere Teams im Umgang mit KI. Vor drei Jahren habe ich meinen ersten Prompt geschrieben. Seitdem habe ich Tausende erstellt – für Marketing, Vertrieb, Entwicklung, Forschung.
+Ich habe in den letzten drei Jahren über 2.000 Prompts in eigenen Projekten entwickelt, getestet und verfeinert — von Content-Erstellung über Code-Debugging bis hin zu komplexen Business-Analysen. Nicht als Akademiker. Als Praktiker, der täglich mit diesen Tools arbeitet und wissen wollte, was wirklich funktioniert und was nicht.
 
 Ich habe gesehen, wie Menschen mit Prompt Engineering ihre Produktivität verdreifachen. Und ich habe gesehen, wie andere monatelang dasselbe schlechte Ergebnis bekommen, weil sie nicht verstehen, wie man richtig fragt.
 
@@ -35,4 +35,4 @@ Die nächsten Kapitel führen dich vom absoluten Anfänger zum Prompt Engineerin
 
 Am Ende hast du nicht nur theoretisches Wissen. Du hast einen Werkzeugkasten voller Prompts, die du sofort einsetzen kannst.
 
-Fang an. Die KI wartet nicht auf dich.
+Starte mit Kapitel 2 — nach 20 Minuten wirst du Prompts anders schreiben. Das verspreche ich dir.

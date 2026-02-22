@@ -92,7 +92,9 @@ Verantwortlich für den Inhalt: [Dein Name]"
 
 ## Urheberrecht und Nutzungsrechte
 
-### Der aktuelle Stand (2024/2025)
+### Der aktuelle Stand
+
+Der EU AI Act ist seit August 2024 offiziell in Kraft. Die Pflichten gelten schrittweise: Verbote ab Februar 2025, Hochrisiko-Regelungen ab 2026.
 
 - **KI-generierte Texte**: In den meisten Jurisdiktionen kein Urheberschutz möglich
 - **KI-generierte Bilder**: Rechtliche Lage unklar, je nach Tool unterschiedlich

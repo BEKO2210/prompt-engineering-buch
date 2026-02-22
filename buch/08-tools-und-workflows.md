@@ -30,16 +30,18 @@ Nicht alle KIs sind gleich. Jede hat Stärken und Schwächen. Hier ist meine Ein
 - Natürlicher Schreibstil
 - Ehrlich bei Unwissenheit
 - Ausgezeichnet für lange Dokumente
+- Web-Suche integriert (seit 2024/2025)
 
 **Schwächen:**
-- Keine Internet-Suche
-- Keine Bildgenerierung
-- Weniger "Werkzeuge" als ChatGPT
+- Weniger Drittanbieter-Integrationen als ChatGPT
+- Bildgenerierung nicht nativ integriert
+- Weniger Custom-Tool-Ökosystem
 
 **Beste für:**
 - Lange Texte analysieren
 - Schreiben mit natürlichem Fluss
 - Komplexe Dokumente
+- Recherche mit Web-Suche
 - Wenn Ehrlichkeit wichtiger ist als Eifer
 
 ### Gemini (Google)
@@ -238,9 +240,8 @@ Kein Workflow ist perfekt vom ersten Mal. Optimiere basierend auf Ergebnissen.
 ## Mein persönlicher Workflow-Stack
 
 **Täglich:**
-- Claude für lange Texte und Analysen
+- Claude für lange Texte, Analysen und Recherche mit Web-Search
 - ChatGPT für schnelle Fragen und Code
-- Perplexity für Recherche
 
 **Wöchentlich:**
 - Midjourney für Bilder

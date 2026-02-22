@@ -9,9 +9,37 @@ Hier ist der Plan.
 ## Woche 1: Grundlagen (Tag 1-7)
 
 ### Tag 1-2: Die vier Säulen verstehen
+
+**Theorie (30 Min):**
 - Lies Kapitel 2 und 3
-- Übung: Schreibe 10 Prompts mit Rolle, Kontext, Aufgabe, Format
-- Vergleiche die Ergebnisse mit deinen alten Prompts
+
+**Konkrete Übung:**
+Schreibe diesen Basis-Prompt neu:
+
+**VORHER:**
+```
+Erkläre mir KI.
+```
+
+**NACHHER (mit 4 Säulen):**
+Deine Version.
+
+**Lösung:**
+```
+Als Schullehrer für 14-Jährige erkläre KI in einfacher Sprache. Nutze eine Analogie aus dem Schulleben. Maximal 100 Wörter. Keine Fachbegriffe.
+```
+
+**Übung 1 (20 Min):**
+Schreibe 10 Prompts für Alltagsaufgaben (E-Mail, Zusammenfassung, Brainstorming). Nutze für jeden alle vier Säulen:
+1. Rolle: Wer soll antworten?
+2. Kontext: Was ist die Situation?
+3. Aufgabe: Was genau soll passieren?
+4. Format: Wie soll es aussehen?
+
+**Übung 2 (15 Min):**
+Vergleiche die Ergebnisse mit Prompts, die du vorher ohne Struktur geschrieben hast. Notiere 3 Unterschiede in Qualität und Nützlichkeit.
+
+**Check:** Kannst du die vier Säulen auswendig aufzählen und erklären?
 
 ### Tag 3-4: ROKA anwenden
 - Lies Kapitel 4

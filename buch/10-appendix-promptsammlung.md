@@ -8,10 +8,10 @@ Hier sind Prompts für jede Situation. Kopiere sie, füge deine Details ein, los
 
 ### CM1: Blogartikel-Ideen
 ```
-ROLLE: Als Content-Stratege für [Branche]...
+ROLLE: Als Content-Stratege für Handwerk und Mittelstand...
 
-KONTEXT: Unser Blog hat [X] Besucher/Monat. 
-Wir wollen [Ziel]. Unsere Zielgruppe: [Beschreibung].
+KONTEXT: Unser Blog hat 5.000 Besucher/Monat. 
+Wir wollen mehr qualifizierte Leads. Unsere Zielgruppe: Selbstständige im DACH-Raum, 35-55 Jahre, ohne KI-Erfahrung.
 
 AUFGABE: Generiere 20 Blogartikel-Ideen.
 
@@ -26,8 +26,8 @@ FORMAT:
 ### CM2: SEO-Content-Brief
 ```
 Erstelle einen Content-Brief für:
-Keyword: [Keyword]
-Ziel: [Ziel]
+Keyword: "Zeiterfassung Handwerk"
+Ziel: Top 10 Google Deutschland
 
 Enthalten:
 - Primäres und sekundäre Keywords
@@ -100,10 +100,10 @@ Ton: professionell, ergebnisorientiert
 ```
 Schreibe Copy für eine Landing Page.
 
-Produkt: [Produkt]
-Zielgruppe: [Zielgruppe]
-USP: [USP]
-Ziel: [Conversion-Ziel]
+Produkt: Zeiterfassungssoftware für Handwerker
+Zielgruppe: Selbstständige Handwerker in Deutschland, 35-55 Jahre
+USP: 50% Zeitersparnis bei der Büroarbeit
+Ziel: Demo-Termin buchen
 
 Sektionen:
 1. Hero (Headline, Subheadline, CTA)
@@ -114,7 +114,7 @@ Sektionen:
 6. FAQ (5 Fragen)
 7. Final CTA
 
-Ton: [Ton]
+Ton: Professionell, aber nicht steif. Verständnis für Handwerker-Alltag.
 ```
 
 ### CW2: Produktbeschreibung
@@ -182,11 +182,11 @@ Je 3 Varianten pro Format
 ```
 Erstelle einen Elevator Pitch.
 
-Unternehmen: [Unternehmen]
-Problem: [Problem]
-Lösung: [Lösung]
-Markt: [Markt]
-Wettbewerbsvorteil: [Vorteil]
+Unternehmen: MeisterSoft GmbH – Software für Handwerker
+Problem: Handwerker verlieren 10 Stunden pro Woche mit Büroarbeit
+Lösung: Automatisierte Zeiterfassung und Rechnungsstellung
+Markt: Deutschland, Österreich, Schweiz – 2,5 Millionen Handwerksbetriebe
+Wettbewerbsvorteil: Spezialisiert auf Handwerk (nicht generisch), mittelständische Konkurrenten ohne KI-Einsatz
 
 Varianten:
 1. 30 Sekunden (für Networking)

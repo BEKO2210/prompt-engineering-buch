@@ -164,20 +164,28 @@ Gedanke: [Die KI analysiert das neue Ergebnis]
 ```
 Löse diese Aufgabe mit ReAct:
 
-Frage: Wie viele Tage hat der Monat, in dem 
-Weihnachten ist?
+Frage: Sollten wir unser Produkt zuerst in 
+Deutschland oder Österreich launchen?
 
-Gedanke: Ich muss wissen, in welchem Monat 
-Weihnachten ist.
-Aktion: Suche nach "Weihnachten Datum".
-Beobachtung: Weihnachten ist am 25. Dezember.
-Gedanke: Jetzt muss ich wissen, wie viele Tage 
-der Dezember hat.
-Aktion: Wissen abrufen: Dezember hat 31 Tage.
-Beobachtung: Dezember hat 31 Tage.
-Gedanke: Ich habe die Antwort.
-Antwort: Der Monat mit Weihnachten (Dezember) 
-hat 31 Tage.
+Gedanke: Ich brauche Marktdaten für beide 
+Länder — Marktgröße, Wettbewerb, Kaufkraft.
+Aktion: Vergleiche BIP pro Kopf Deutschland 
+vs. Österreich.
+Beobachtung: Österreich hat höheres BIP pro 
+Kopf (~53k vs. ~48k €), kleinerer Markt.
+Gedanke: Kleiner Markt + höhere Kaufkraft = 
+ideal für Premium-Test. Aber ich brauche noch 
+Wettbewerbsdaten.
+Aktion: Analysiere Anzahl direkter Wettbewerber 
+in beiden Märkten.
+Beobachtung: In Österreich 2 direkte 
+Wettbewerber, in Deutschland 8.
+Gedanke: Österreich: weniger Konkurrenz, 
+höhere Kaufkraft, überschaubare Größe.
+Empfehlung: Österreich als Testmarkt, dann 
+Rollout Deutschland.
+Antwort: Launch zuerst in Österreich — 
+geringeres Risiko, höhere Erfolgswahrscheinlichkeit.
 ```
 
 ## Negative Prompting: Was nicht gewollt ist
@@ -467,6 +475,8 @@ Fokus auf: [Deine Frage]"
 ```
 
 ### Conditional Prompting: Wenn-Dann-Logik
+
+⚠️ **HINWEIS:** Die folgende Syntax ist für technische Integrationen über API und Code-Frameworks wie LangChain oder Python-Skripte gedacht. Du kannst diesen Code NICHT direkt in ChatGPT oder Claude eingeben — er funktioniert nur in programmatischen Umgebungen.
 
 ```
 Analysiere diesen Text: [Text]
