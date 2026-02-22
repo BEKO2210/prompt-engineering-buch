@@ -47,7 +47,7 @@ nicht vom Fleck kriegt...
 ```
 
 ### Rollen-Tipps
-- Spezifisch sein: "Marketingexperte" ist zu vage
+- Spezifisch sein: "Marketingexperte" ist zu vage.
 - Erfahrung hinzufügen: "mit 5 Jahren Erfahrung"
 - Zielgruppe nennen: "für Anfänger", "für Fachleute"
 

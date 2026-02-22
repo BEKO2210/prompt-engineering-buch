@@ -4,7 +4,7 @@
 
 Ich habe drei Jahre damit verbracht, KIs zu füttern. Am Anfang habe ich wie jeder andere Anfänger geschrieben: "Schreib mir einen Blogartikel über Kaffee." Das Ergebnis? Generisches Zeug, das niemand lesen wollte.
 
-Heute bekomme ich von derselben KI Inhalte, die besser sind als das, was die meisten Menschen selbst schreiben können. Der Unterschied? Ich habe gelernt, wie man spricht, damit die KI versteht.
+Heute bekomme ich von derselben KI Inhalte, die besser sind als das, was die meisten Menschen selbst schreiben können. Der Unterschied? Ich habe gelernt, wie man spricht, damit die KI **es** versteht.
 
 Das ist Prompt Engineering. Keine Magie, keine Programmierung – nur die Fähigkeit, deine Gedanken so zu strukturieren, dass eine KI sie versteht und umsetzt.
 
