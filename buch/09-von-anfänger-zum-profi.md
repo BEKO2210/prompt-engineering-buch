@@ -180,6 +180,8 @@ Nach 30 Tagen hast du das Fundament. Was du danach machst:
 - **Automatisierung:** Baue Workflows, die ohne dich laufen
 - **Teaching:** Lehre andere, das vertieft dein Verständnis
 - **Innovation:** Entwickle neue Techniken
+- **Ethik:** Lerne, KI verantwortungsvoll einzusetzen (siehe Kapitel 11)
+- **Skalierung:** Bringe Prompt Engineering in dein Team (siehe Kapitel 12)
 
 Prompt Engineering entwickelt sich ständig weiter. Die Grundlagen bleiben, aber die Möglichkeiten wachsen. Bleib neugierig, bleib übend, bleib dran.
 
