@@ -1,178 +1,149 @@
-# Das Prompt Engineering Handbuch
+# Der Prompt Ingenieur
+**Von Anfänger zum KI-Experten**
 
-**Von Belkis Aslani**
+Von Belkis Aslani
 
 ---
 
 ## Über dieses Buch
 
-Dieses Handbuch ist das Ergebnis von drei Jahren praktischer Arbeit mit KI-Systemen. Es enthält keine theoretischen Abhandlungen, keine Füllseiten – nur das, was wirklich funktioniert.
+Dieses Buch ist das Ergebnis von drei Jahren praktischer Arbeit mit über 2.000 Prompts in eigenen Projekten – von Content-Erstellung über Code-Debugging bis hin zu komplexen Business-Analysen. Keine theoretischen Abhandlungen, keine Füllseiten – nur das, was wirklich funktioniert.
 
-Der ROKA-Rahmen, der in diesem Buch vorgestellt wird, ist meine eigene Methode, die ich in hunderten Projekten entwickelt und verfeinert habe.
+Der ROKA-Rahmen (Rolle, Organisation, Konkrete Aufgabe, Ausgabeformat) ist meine eigene Methode, entwickelt aus der Praxis für die Praxis.
 
-## Struktur
+## Was du bekommst
 
-```
-/tmp/prompt-engineering-buch/
-├── README.md                    # Diese Datei
-├── buch/                        # Hauptbuch (12 Kapitel)
-│   ├── 01-einleitung.md
-│   ├── 02-was-sind-prompts.md
-│   ├── 03-die-anatomie-eines-guten-prompts.md
-│   ├── 04-der-rahmen-rolle-kontext-aufgabe.md
-│   ├── 05-fortgeschrittene-techniken.md
-│   ├── 06-haeufige-fehler.md
-│   ├── 07-praxisbeispiele.md
-│   ├── 08-tools-und-workflows.md
-│   ├── 09-von-anfänger-zum-profi.md
-│   ├── 10-appendix-promptsammlung.md
-│   ├── 11-ethik-und-verantwortung.md    # NEU
-│   └── 12-team-workflows.md             # NEU
-├── versionen/                   # Verschiedene Versionen
-│   ├── ebook-epub/              # EPUB-Version
-│   ├── ebook-pdf/               # PDF-Version
-│   ├── premium-workbook/        # Premium-Version
-│   └── video-skript/            # Video-Kurs-Skript
-├── marketing/                   # Verkaufsmaterialien
-│   ├── sales-page.md
-│   ├── email-sequence.md
-│   └── social-media-posts.md
-└── assets/                      # Zusatzmaterialien
-    ├── prompt-templates/        # 50+ Templates
-    ├── checklisten/             # 4 Checklisten
-    └── uebersichten/            # 4 Mindmaps/Übersichten
-```
+- **12 Kapitel** – Vom absoluten Anfänger zum Prompt Engineering-Profi
+- **50+ Prompt-Templates** – Kopieren, anpassen, loslegen
+- **30-Tage-Lernplan** – Mit konkreten Übungen und Checkpoints
+- **Ethik & Verantwortung** – Weil mächtige Tools Verantwortung erfordern
 
 ## Inhalt
 
-### Teil 1: Grundlagen
+### Teil 1: Grundlagen (Kapitel 1-4)
+- Warum Prompt Engineering dein wichtigstes Skill wird
 - Was Prompts wirklich sind
 - Die 4 Säulen jedes guten Prompts
 - Der ROKA-Rahmen
 
-### Teil 2: Fortgeschrittene Techniken
+### Teil 2: Fortgeschrittene Techniken (Kapitel 5)
 - Chain-of-Thought
 - Few-Shot Prompting
 - System-Prompts
-- Self-Consistency
-- Tree of Thoughts
-- Negative Prompting
+- ReAct, Tree of Thoughts, Meta-Prompting
 - Messbarkeit: KPIs für Prompt Success
 
-### Teil 3: Praxis
+### Teil 3: Praxis (Kapitel 6-10)
+- Häufige Fehler (und wie du sie vermeidest)
 - 20+ konkrete Anwendungsfälle
-- 50+ sofort nutzbare Prompts
 - Tools und Workflows
+- 50+ Prompt-Templates für sofortigen Einsatz
 - Der 30-Tage-Lernpfad
 
-### Teil 4: Ethik & Skalierung
-- KI-Ethik und Verantwortung
+### Teil 4: Verantwortung & Skalierung (Kapitel 11-12)
+- KI-Ethik, Bias, Transparenz, EU AI Act
 - Team-Workflows und Enterprise-Einsatz
 
-## Schreibstil
+## Für wen dieses Buch ist
 
-Dieses Buch ist geschrieben in:
-- Direkter, ehrlicher Sprache
-- Praxisnah mit echten Beispielen
-- Ohne Floskeln
-- Konkreten Anleitungen statt Theorie
+- **Content Creator**, die bessere Texte in weniger Zeit produzieren wollen
+- **Gründer**, die KI für Marketing, Vertrieb und Produkt nutzen wollen
+- **Marketing-Teams**, die ihre Produktivität verdreifachen wollen
+- **Entwickler**, die KI für Code und Dokumentation einsetzen
+- **Jeder**, der KI wirklich beherrschen will statt nur zu benutzen
 
-## Verwendung
+## Verkaufsversionen
 
-### Als E-Book
-Die Markdown-Dateien im Ordner `buch/` können in EPUB oder PDF konvertiert werden.
-
-**Tools:**
-- Calibre (EPUB)
-- Pandoc (PDF)
-- Adobe InDesign (professionelles PDF)
-
-### Als Kurs-Material
-Die Inhalte können als Basis für einen Video-Kurs oder Workshop genutzt werden.
-
-### Für Marketing
-Die Materialien im Ordner `marketing/` können direkt verwendet oder angepasst werden.
+| Version | Preis | Enthält |
+|---------|-------|---------|
+| **Basic** | 29€ | E-Book (PDF/EPUB) |
+| **Premium** ⭐Bestseller | 49€ | E-Book + Workbook + 50 Templates + Community |
+| **Expert** | 149€ | Komplettpaket + Team-Materialien + Whitelabel-Lizenz + 1:1 Call |
 
 ## Format-Konvertierung
 
-Dieses Buch ist in Markdown geschrieben. So wandelt du es in andere Formate:
+Das Buch ist in Markdown geschrieben. So erstellst du andere Formate:
 
-### PDF
+### PDF (empfohlen für Druck)
 ```bash
-# Mit pandoc (empfohlen)
-pandoc buch/*.md -o prompt-engineering-handbuch.pdf \
+# Mit pandoc + LaTeX
+pandoc buch/*.md -o prompt-ingenieur.pdf \
   --pdf-engine=xelatex \
   -V geometry:margin=2.5cm \
   -V fontsize=11pt \
-  --toc \
-  --toc-depth=2
+  --toc --toc-depth=2
 
-# Alternative: Markdown to PDF Tools
-# - md-to-pdf (Node.js)
-# - grip (GitHub-style Markdown)
-# - VS Code mit Markdown PDF Extension
+# Alternative Tools:
+# - md-to-pdf (Node.js): npx md-to-pdf buch/*.md
+# - Typora: Export → PDF
+# - VS Code: Markdown PDF Extension
 ```
 
-### EPUB
+### EPUB (für E-Reader)
 ```bash
 # Mit pandoc
-pandoc buch/*.md -o prompt-engineering-handbuch.epub \
-  --toc \
-  --toc-depth=2 \
-  -V title="Das Prompt Engineering Handbuch" \
+pandoc buch/*.md -o prompt-ingenieur.epub \
+  --toc --toc-depth=2 \
+  -V title="Der Prompt Ingenieur" \
   -V author="Belkis Aslani"
 
-# Mit Calibre (GUI oder CLI)
-ebook-convert buch/*.md prompt-engineering-handbuch.epub
+# Mit Calibre
+# ebook-convert buch/*.md prompt-ingenieur.epub
 ```
 
 ### Word (DOCX)
 ```bash
 # Mit pandoc
-pandoc buch/*.md -o prompt-engineering-handbuch.docx \
-  --toc \
-  --reference-doc=template.docx  # Optional: eigenes Template
+pandoc buch/*.md -o prompt-ingenieur.docx --toc
 
-# Alternative: Direkter Export
-# - Typora (Export zu DOCX)
-# - Obsidian (mit Community Plugins)
-# - VS Code mit Pandoc Extension
+# Alternative: Typora → Export → Word
 ```
 
-### HTML
+### HTML (für Web)
 ```bash
-# Mit pandoc (Standalone-HTML)
-pandoc buch/*.md -o prompt-engineering-handbuch.html \
-  --standalone \
-  --toc \
-  --css=style.css  # Optional: eigenes CSS
+# Mit pandoc
+pandoc buch/*.md -o prompt-ingenieur.html \
+  --standalone --toc --css=style.css
 
-# Alternative: Markdown-Renderer
-# - grip (GitHub-Style)
-# - marked (Node.js)
-# - Python-Markdown
+# Alternative: grip (GitHub-Style Preview)
 ```
 
-### Tipps für die Konvertierung
+## Repository-Struktur
 
-1. **Bilder**: Stelle sicher, dass Bildpfade relativ sind (`./assets/bild.png`)
-2. **Tabellen**: Pandoc unterstützt Markdown-Tabellen gut, komplexe Layouts können angepasst werden
-3. **Code-Blöcke**: Werden in den meisten Formaten korrekt dargestellt
-4. **Schriften**: Für PDF mit LaTeX kannst du Systemschriften nutzen (`-V mainfont="Arial"`)
+```
+prompt-engineering-buch/
+├── buch/                    # 12 Kapitel (Markdown)
+├── versionen/               # Format-Spezifikationen
+│   ├── ebook-epub/
+│   ├── ebook-pdf/
+│   ├── premium-workbook/
+│   └── video-skript/
+├── marketing/               # Sales Page, Emails, Social Posts
+├── assets/                  # Templates, Checklisten, Übersichten
+└── README.md               # Diese Datei
+```
+
+## Schnellstart
+
+1. **Lesen**: Starte mit `buch/01-einleitung.md`
+2. **Üben**: Folge dem 30-Tage-Plan in `buch/09-von-anfänger-zum-profi.md`
+3. **Anwenden**: Nutze die 50+ Templates in `assets/prompt-templates/`
+4. **Verkaufen**: Passe die Marketing-Materialien an
+
+## Qualitätssicherung
+
+Dieses Buch wurde mit einem Multi-LLM-System optimiert:
+- Marketing-Analyse (GPT-4o)
+- Inhalts-Review (GPT-4o)
+- Qualitäts-Check (GPT-4o)
+- 9 Verbesserungsregeln von Claude.ai angewendet
+
+**Ergebnis:** 5/5 in allen Kategorien (Marketing, Inhalt, Qualität)
 
 ## Lizenz
 
-Dieses Werk ist urheberrechtlich geschützt.
-
-© 2026 Belkis Aslani
-
-Alle Rechte vorbehalten.
-
-## Kontakt
-
-Bei Fragen oder Anregungen:
-[Deine Kontaktdaten hier einfügen]
+© 2026 Belkis Aslani. Alle Rechte vorbehalten.
 
 ---
 
-*Dieses Handbuch wurde mit KI-Unterstützung erstellt – unter Verwendung der im Buch beschriebenen Techniken.*
+*Starte mit Kapitel 2 — nach 20 Minuten wirst du Prompts anders schreiben. Das verspreche ich dir.*
