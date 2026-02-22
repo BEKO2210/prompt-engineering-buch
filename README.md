@@ -133,9 +133,9 @@ prompt-engineering-buch/
 ## Qualitätssicherung
 
 Dieses Buch wurde mit einem Multi-LLM-System optimiert:
-- Marketing-Analyse (GPT-4o)
-- Inhalts-Review (GPT-4o)
-- Qualitäts-Check (GPT-4o)
+- Marketing-Analyse (GPT-5.2)
+- Inhalts-Review (Kimi 2.5)
+- Qualitäts-Check (claude 4.6) 
 - 9 Verbesserungsregeln von Claude.ai angewendet
 
 **Ergebnis:** 5/5 in allen Kategorien (Marketing, Inhalt, Qualität)
